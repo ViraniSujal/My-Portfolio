@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.83249947.css",
-    "main.js": "./static/js/main.366ef695.js",
+    "main.js": "./static/js/main.ae3a0cef.js",
     "static/js/787.d4aba7ab.chunk.js": "./static/js/787.d4aba7ab.chunk.js",
     "static/media/NgoImg.png": "./static/media/NgoImg.bc64542aba193737fa62.png",
     "static/media/i weather.png": "./static/media/i weather.9e2894881ada50bc21d9.png",
@@ -33,11 +33,11 @@
     "static/media/flutter.svg": "./static/media/flutter.643a93c82cd15bbffd12a9ce33a79751.svg",
     "static/media/html.svg": "./static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "main.83249947.css.map": "./static/css/main.83249947.css.map",
-    "main.366ef695.js.map": "./static/js/main.366ef695.js.map",
+    "main.ae3a0cef.js.map": "./static/js/main.ae3a0cef.js.map",
     "787.d4aba7ab.chunk.js.map": "./static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83249947.css",
-    "static/js/main.366ef695.js"
+    "static/js/main.ae3a0cef.js"
   ]
 }
