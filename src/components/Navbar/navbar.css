@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+.Navbar {
+    height: 5rem;
+    width: 100vw;
+    margin: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+button {
+    border: none;
+}
+
+.imgL {
+    border: none;
+}
+
+.active {
+    color: #157E38;
+    border-bottom: 2px solid #157E38;
+}
+
+.logo {
+    object-fit: cover;
+    height: 3rem;
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+    color: #044E29;
+    font-size: 18px;
+}
+
+.desktopMenuListItem:hover {
+    color: #157E38;
+    border-bottom: 2px solid #157E38;
+}
+
+i {
+    color: #044E29;
+    padding: 0 10px;
+    height: auto;
+    margin: 13px 2px;
+    font-size: 20px;
+    display: block;
+}
+
+i:hover {
+    color: #157E38;
+}
+
+
+/* burgur menu css */
+
+.mobMenu {
+    object-fit: cover;
+    height: 1.8rem;
+    display: none;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    border-radius: 1rem;
+    background: #caffc2;
+}
+
+.listItem {
+    color: #044E29;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+}
+
+@media screen and (max-width:1024px) {
+    .mobMenu {
+        display: flex;
+    }
+    .logo {
+        object-fit: cover;
+        height: 2.5rem;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .SocialIcon {
+        display: none;
+    }
+}
